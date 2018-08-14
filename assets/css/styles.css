@@ -110,6 +110,7 @@ header nav {
 }
 
 
+
 header li{
     margin: 0 15px;
 }
@@ -274,6 +275,10 @@ header li{
 }
 
 /* Contact */
+
+.contact {
+    background-color: #f7f7f7; 
+}
 
 .contact form {
     display: flex;

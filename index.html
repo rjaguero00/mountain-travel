@@ -11,9 +11,6 @@
     <!-- Customize CSS -->
     <link rel="stylesheet" href='assets/css/styles.css'>
 
-    <!-- Bootstrap CDN -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous"> -->
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -22,6 +19,10 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <script type="text/javascript" src="assets/js/mountain.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
 </head>
 
@@ -32,13 +33,16 @@
         </h2>
         <nav>
             <li>
-                <a href="#">Home</a>
+                <a class="nav-link" href="#">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a class="nav-link" href="#destinations">About</a>
             </li>
             <li>
-                <a href="#">Contacts</a>
+                <a class="nav-link" href="#packages">Tours</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#contact">Contacts</a>
             </li>
         </nav>
     </header>
@@ -52,7 +56,7 @@
         </div>
     </section>
 
-    <section class="destinations">
+    <section class="destinations" id="destinations">
         <h3 class="title">Some of our destinations:</h3>
         <p>Tired of the ocean? Are the plains too plain? Come along with us on one of our mountain adventures. Here are some
             pictures from people who have elevated experiences with us.</p>
@@ -66,7 +70,7 @@
         </ul>
     </section>
 
-    <section class="packages">
+    <section class="packages" id="packages">
         <h3 class="title">Tour Packages:</h3>
         <p>We offer a variety of mountaineering packages. Weather you've climbed Everest or don't even know what a mountain
             is, we've got the perfect vacation for you.</p>
@@ -119,7 +123,7 @@
 
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <h3 class="title">Learn more</h3>
         <p>Want to know about our upcoming mountain-related events, or come to one of our mixers? Just sign up for our mailing
             list. No spam from us, we promise! Except for the spam we give you to keep up your energy while you're hiking
@@ -154,13 +158,8 @@
         </ul>
     </footer>
 
+
 </body>
 
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script> -->
 
 </html>
