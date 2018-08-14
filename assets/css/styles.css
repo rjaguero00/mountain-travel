@@ -247,6 +247,13 @@ header li{
     }
 }
 
+@media (max-width: 325px) {
+    .packages .grid li {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+}
+
 /* Testimonials */
 
 .testimonials .quote {
