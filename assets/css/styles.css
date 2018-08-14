@@ -72,6 +72,8 @@ section p {
     text-align: center;
 }
 
+
+
 /* Header */
 
 header {
@@ -155,7 +157,7 @@ header li{
     }
 }
 
-/* Des */
+/* Destinations */
 
 .destinations .grid li {
     height: 350px;
@@ -173,4 +175,23 @@ header li{
     flex-basis: 70%;
 }
 
+/* Packages */
 
+.packages {
+    background-color: #f7f7f7;
+}
+
+.packages .grid li {
+    padding: 50px;
+    flex-basis: 50%;
+    text-align: center;
+} 
+
+.packages .grid li i {
+    color: #8c9eff;
+}
+
+.packages .grid li h4 {
+    font-size: 30px;
+    margin: 25px 0;
+}
